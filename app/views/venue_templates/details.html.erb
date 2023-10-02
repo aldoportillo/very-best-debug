@@ -57,9 +57,7 @@
   <% @the_venue.comments.each do |comment| %>
   <tr>
     <td>
-      <% if comment.commenter != nil%>
         <%= comment.commenter.username %>
-      <% end %>
     </td>
 
     <td>
